@@ -2,13 +2,18 @@ body{
     background-color: #3ea66b
     
 }
-.flex-container {
+.Principal {
     display: flex;
-    background-color: DodgerBlue;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
   }
   
-  .flex-container > div {
-    background-color: #f1f1f1;
+  
+  .Coluna{
+    display: flex;
+    flex-direction: column;
+    background-color: #d773eb;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
